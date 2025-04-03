@@ -10,3 +10,76 @@ $dark:#0F0F0F;
 @import "./bootstrap/bootstrap.scss";
 
 
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
+
+@font-face {
+    font-family: 'Ready for Anything BB';
+    src: url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Regular.eot');
+    src: local('Ready for Anything BB Regular'), local('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Regular'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Regular.woff2') format('woff2'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Regular.woff') format('woff'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ready for Anything BB';
+    src: url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-BoldItalic.eot');
+    src: local('Ready for Anything BB Bold Italic'), local('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-BoldItalic'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-BoldItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ready for Anything BB';
+    src: url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Bold.eot');
+    src: local('Ready for Anything BB Bold'), local('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Bold'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Bold.woff2') format('woff2'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Bold.woff') format('woff'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Bold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ready for Anything BB';
+    src: url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Italic.eot');
+    src: local('Ready for Anything BB Italic'), local('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Italic'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Italic.woff2') format('woff2'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Italic.woff') format('woff'),
+        url('./assets/fonts/ReadyforAnythingBB/ReadyforAnythingBB-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
