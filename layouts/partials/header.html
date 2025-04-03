@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}">
+    <meta property="og:author" content="Toxiquid">
+    <meta property="og:description" content="{{.Description}}">
+    <meta name="theme-color" content="#2270B3"> 
+    
+    <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+
+    <link rel="stylesheet" href="/assets/css/font-awesome/all.css" />
+    {{ $sass := resources.Get "sass/custom.scss" }}
+    {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+    
+    
+</head>

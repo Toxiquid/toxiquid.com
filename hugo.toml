@@ -1,0 +1,11 @@
+baseURL = 'https://toxiquid.com'
+languageCode = 'en-us'
+title = 'Toxiquid Portfolio Site'
+relativeURLs = true
+canonifyurls = false
+buildDrafts = true
+timeout=20000000
+
+
+[markup.goldmark.renderer]
+unsafe= true
