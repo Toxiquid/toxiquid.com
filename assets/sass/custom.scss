@@ -6,6 +6,7 @@ $info:#99B6FF;
 $enable-shadows:true;
 $light:#FFFFFF;
 $dark:#0F0F0F;
+$nav-link-color:#EDC8F9;
 
 @import "./bootstrap/bootstrap.scss";
 
@@ -89,4 +90,9 @@ $dark:#0F0F0F;
 
 .subtext {
     font-size: $font-size-base * 0.9;
+}
+
+html *
+{
+    font-family: "Ready for Anything BB", "Arial";
 }
