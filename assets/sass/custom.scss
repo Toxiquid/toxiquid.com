@@ -83,3 +83,10 @@ $dark:#0F0F0F;
     font-style: italic;
 }
 
+.borderless {
+    border:0px;
+}
+
+.subtext {
+    font-size: $font-size-base * 0.9;
+}
